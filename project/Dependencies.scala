@@ -30,7 +30,6 @@ object Library {
   val guiceScala          = "net.codingwell" %% "scala-guice" % "4.0.0-beta"
   val selenium            = "org.seleniumhq.selenium" % "selenium-java" % "2.35.0"
   val mockito             = "org.mockito" % "mockito-core" % "1.9.5"
-  val ghostDriver         = "com.github.detro.ghostdriver" % "phantomjsdriver" % "1.0.4"
   val pegDown             = "org.pegdown" % "pegdown" % "1.4.1"
   val classCycle          = "org.specs2" % "classycle" % "1.4.1"
 }
@@ -44,7 +43,6 @@ object Dependencies {
     guiceScala,
     selenium    % "test",
     mockito     % "test",
-    ghostDriver % "test",
     pegDown     % "test",
     classCycle  % "test"
   )
